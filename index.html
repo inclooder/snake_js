@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" manifest="/cache.manifest"><head>
+<meta charset="UTF-8">
+<title>Snake</title>
+<script src="game.js"></script>
+</head>
+<body>
+<h1>Snake</h1>
+<canvas height="451" width="451" id="game_canvas"></canvas>
+<script>
+  var snakeGame = new SnakeGame(document.getElementById('game_canvas'));
+  snakeGame.start();
+</script>
+
+</body></html>
